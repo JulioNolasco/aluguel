@@ -1,0 +1,2475 @@
+<body>
+    <div id="app">
+        
+
+<style type="text/css">@font-face {font-family:'IBM Plex Sans';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:normal;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/italic.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/italic.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'IBM Plex Sans';font-style:italic;font-weight:100 700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}</style>
+<div id="ac-cc_header">
+    <header id="ac-main_header" class="ac-cc">
+        <div class="ac-header_links">
+            <a href="https://assinajogos.com" class="ac-logo">
+                <img src="https://assinajogos.com/imagens/logos/assina_jogos_logo.png" alt="Logo" id="ac-main_header_logo">
+            </a>
+            <a href="https://assinajogos.com/jogos">Jogos</a>
+            <a href="https://assinajogos.com/sorteios">Sorteios</a>
+                            <a href="https://assinajogos.com/bonus">Como Funciona</a>
+                <a href="https://assinajogos.com/assinatura">Assinatura</a>
+                <a href="https://api.whatsapp.com/send?phone=5516974057513" target="_blank">Seja Afiliado</a>
+                    </div>
+                    <div id="ac-header_btns">
+                <a href="https://assinajogos.com/cadastro" class="ac-newacc_btn">Me Cadastrar</a>
+                <a href="https://assinajogos.com/entrar" class="ac-login_btn">Entrar</a>
+            </div>
+                <div id="ac-itens_mob">
+            <a href="https://assinajogos.com/assinatura" class="ac-games_mob">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M17 17h-11v-14h-2"></path><path d="M6 5l14 1l-1 7h-13"></path></svg>
+                Assinatura
+            </a>
+            <a href="https://assinajogos.com/entrar" class="ac-games_mob">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg>
+                Minha conta
+            </a>
+            <a href="https://assinajogos.com/jogos" class="ac-games_mob">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-device-gamepad-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4z"></path><path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232"></path><path d="M8 9v2"></path><path d="M7 10h2"></path><path d="M14 10h2"></path></svg>
+                Jogos
+            </a>
+            <div class="ac-menu_mob ac-games_mob">
+                <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 6l16 0"></path><path d="M4 12l16 0"></path><path d="M4 18l16 0"></path></svg>
+                Menu
+            </div>
+        </div>
+    </header>
+</div>
+<div id="ac-header_mobile">
+    <div id="ac-header_mobile_cc">
+        <div class="ac-mm_head">
+            <img src="https://assinajogos.com/imagens/logos/assina_jogos_logo.png" alt="Logo" id="ac-main_header_logo_mob">
+            <button type="button" class="ac-mm_close" aria-label="Fechar menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6l-12 12"></path><path d="M6 6l12 12"></path></svg>
+            </button>
+        </div>
+
+        
+        <span class="ac-mm_title">Navegação</span>
+        <a href="https://assinajogos.com/jogos" class="ac-mm_link">
+            <span class="ac-mm_ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4z"></path><path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232"></path><path d="M8 9v2"></path><path d="M7 10h2"></path><path d="M14 10h2"></path></svg></span>
+            Jogos
+        </a>
+        <a href="https://assinajogos.com/sorteios" class="ac-mm_link">
+            <span class="ac-mm_ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21l8 0"></path><path d="M12 17l0 4"></path><path d="M7 4l10 0"></path><path d="M17 4v8a5 5 0 0 1 -10 0v-8"></path><path d="M5 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M19 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path></svg></span>
+            Sorteios
+        </a>
+        <a href="https://assinajogos.com/assinatura" class="ac-mm_link">
+            <span class="ac-mm_ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M17 17h-11v-14h-2"></path><path d="M6 5l14 1l-1 7h-13"></path></svg></span>
+            Assinatura
+        </a>
+
+                    <a href="https://assinajogos.com/bonus" class="ac-mm_link">
+                <span class="ac-mm_ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path><path d="M12 9h.01"></path><path d="M11 12h1v4h1"></path></svg></span>
+                Como Funciona
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5516974057513" target="_blank" class="ac-mm_link">
+                <span class="ac-mm_ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path></svg></span>
+                Seja Afiliado
+            </a>
+            <div class="ac-mm_foot">
+                <a href="https://assinajogos.com/cadastro" class="ac-newacc_btn">Me Cadastrar</a>
+                <a href="https://assinajogos.com/entrar" class="ac-login_btn">Entrar</a>
+            </div>
+            </div>
+</div>        <main>
+            <div class="v2-page">
+
+
+<section class="v2-hero" aria-label="Hero principal">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-glow-accent" aria-hidden="true"></div>
+
+  <div class="ps-symbols" aria-hidden="true">
+    <span class="ps-sym">△</span>
+    <span class="ps-sym">○</span>
+    <span class="ps-sym">□</span>
+    <span class="ps-sym">✕</span>
+    <span class="ps-sym">△</span>
+    <span class="ps-sym">○</span>
+    <span class="ps-sym">□</span>
+    <span class="ps-sym">✕</span>
+  </div>
+
+  <div class="v2-cc hero-inner">
+    <div class="hero-content" style="animation:fadeInUp .8s ease both">
+      <div class="hero-ps-badge" aria-label="Compatível com PS4 e PS5">
+        <span>Compatível com PS4 &amp; PS5</span>
+      </div>
+      <h1 class="hero-headline">
+        Jogue <span class="gradient-text">centenas de títulos</span><br>
+        sem gastar uma fortuna
+      </h1>
+      <p class="hero-subtitle">
+        Assina Jogos é a plataforma de assinatura que te dá acesso a jogos digitais de
+        PS4 e PS5 por um valor fixo mensal. Troque quando quiser, jogue quando quiser.
+      </p>
+      <div class="hero-ctas">
+        <a href="https://assinajogos.com/assinatura" class="v2-btn v2-btn-primary v2-btn-lg" aria-label="Ver planos de assinatura">
+          <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+          Assinar agora
+        </a>
+        <a href="https://assinajogos.com/jogos" class="v2-btn v2-btn-outline v2-btn-lg" aria-label="Ver catálogo de jogos">
+          <i class="fa-solid fa-gamepad" aria-hidden="true"></i>
+          Ver catálogo
+        </a>
+      </div>
+      <div class="hero-trust">
+        <div class="hero-trust-item">
+          <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+          <span>Acesso imediato</span>
+        </div>
+        <div class="hero-trust-item">
+          <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+          <span>Suporte por WhatsApp</span>
+        </div>
+        <div class="hero-trust-item">
+          <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+          <span>Sem fidelidade</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual" style="animation:fadeInUp .8s ease .2s both">
+      <div class="hero-controller-wrap">
+        <div class="controller-glow-ring" aria-hidden="true"></div>
+        <div class="controller-glow-ring" aria-hidden="true"></div>
+        <div class="controller-glow-ring" aria-hidden="true"></div>
+        <img class="controller-img" src="https://assinajogos.com/imagens/assets/playstation5controle.png" alt="Controle de PlayStation 5" width="300" height="225" loading="eager">
+        <div class="hero-pill pill-1">
+          <strong id="counter-games">600<span>+</span></strong>
+          <span>Jogos disponíveis</span>
+        </div>
+        <div class="hero-pill pill-2">
+          <strong><span class="gradient-text-warm">Assinatura</span></strong>
+          <span>Jogue múltiplos títulos</span>
+        </div>
+        <div class="hero-pill pill-3">
+          <strong style="color:var(--accent)">✓ Ativo</strong>
+          <span>Acesso instantâneo</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator" aria-hidden="true">
+    <span>Rolar</span>
+    <div class="scroll-mouse">
+      <div class="scroll-dot"></div>
+    </div>
+  </div>
+</section>
+
+
+<div class="stats-bar" role="region" aria-label="Números da plataforma">
+  <div class="v2-cc">
+    <div class="stats-grid">
+      <div class="stat-item reveal visible">
+        <div class="stat-number" data-count="600" data-suffix="+">600+</div>
+        <div class="stat-label">Jogos no catálogo</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-1 visible">
+        <div class="stat-number" data-count="80" data-suffix="%">80%</div>
+        <div class="stat-label">Economia vs. comprar</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-2 visible">
+        <div class="stat-number" data-count="24" data-suffix="h">24h</div>
+        <div class="stat-label">Acesso rápido</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-3 visible">
+        <div class="stat-number" data-count="5" data-prefix="" data-suffix="★">5★</div>
+        <div class="stat-label">Avaliação dos assinantes</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="v2-section" aria-labelledby="what-is-title">
+  <div class="v2-cc">
+    <div class="what-is-grid">
+      <div class="what-is-visual reveal visible">
+        <div class="what-is-card">
+          <div class="what-is-img-wrap">
+            <img src="https://assinajogos.com/imagens/assets/playstation5controle.png" alt="PlayStation 5 com Assina Jogos" width="200" height="150" loading="lazy">
+          </div>
+          <div class="what-is-badges">
+            <div class="wib"><i class="fa-brands fa-playstation" aria-hidden="true"></i> PS4</div>
+            <div class="wib"><i class="fa-brands fa-playstation" aria-hidden="true"></i> PS5</div>
+            <div class="wib"><i class="fa-solid fa-bolt" aria-hidden="true"></i> Acesso digital</div>
+            <div class="wib"><i class="fa-solid fa-arrows-rotate" aria-hidden="true"></i> Troca livre</div>
+          </div>
+        </div>
+      </div>
+      <div class="what-is-content reveal reveal-delay-1 visible">
+        <div class="v2-tag"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> O que é</div>
+        <h2 id="what-is-title">A plataforma que <span class="gradient-text">revolucionou</span> como você joga</h2>
+        <p>
+          A Assina Jogos é um serviço de assinatura que te dá acesso a jogos digitais de
+          PlayStation 4 e PlayStation 5. Com um único plano mensal, você joga vários títulos
+          — sem precisar comprar cada um.
+        </p>
+        <ul class="what-is-list" role="list">
+          <li>
+            <div class="wil-icon" aria-hidden="true"><i class="fa-solid fa-gamepad"></i></div>
+            <div><strong style="color:var(--text)">Catálogo rico e atualizado</strong><br>Centenas de jogos — de ação, aventura, RPG, esporte e muito mais.</div>
+          </li>
+          <li>
+            <div class="wil-icon" aria-hidden="true"><i class="fa-solid fa-rotate"></i></div>
+            <div><strong style="color:var(--text)">Troque quando quiser</strong><br>Terminou o jogo? Troque por outro sem custo adicional conforme seu plano.</div>
+          </li>
+          <li>
+            <div class="wil-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+            <div><strong style="color:var(--text)">100% digital e seguro</strong><br>Sem risco de arranhões, sem entrega. Acesso imediato via conta PlayStation.</div>
+          </li>
+        </ul>
+        <a href="https://assinajogos.com/bonus" class="v2-btn v2-btn-primary" aria-label="Saiba mais sobre como funciona">
+          Saiba mais <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="v2-section how-section" aria-labelledby="how-title">
+  <div class="v2-cc">
+    <div class="section-eyebrow">
+      <div class="v2-tag reveal visible"><i class="fa-solid fa-list-ol" aria-hidden="true"></i> Como funciona</div>
+      <h2 id="how-title" class="reveal reveal-delay-1 visible">Simples como apertar <span class="gradient-text">Start</span></h2>
+      <p class="reveal reveal-delay-2 visible">Em 3 passos você já está jogando. Sem complicação.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card reveal visible">
+        <div class="step-number" aria-hidden="true">1</div>
+        <div class="step-icon">
+          <img src="https://assinajogos.com/imagens/assets/controle.png" alt="Ícone de escolher plano" loading="lazy">
+        </div>
+        <h3>Escolha seu plano</h3>
+        <p>Selecione o plano que cabe no seu bolso. Mensal, trimestral ou anual — todos com acesso completo ao catálogo.</p>
+      </div>
+      <div class="step-card reveal reveal-delay-1 visible">
+        <div class="step-number" aria-hidden="true">2</div>
+        <div class="step-icon">
+          <img src="https://assinajogos.com/imagens/assets/escolha-o-jogo.png" alt="Ícone de escolher jogo" loading="lazy">
+        </div>
+        <h3>Escolha o jogo</h3>
+        <p>Navegue pelo catálogo e reserve o título que quiser jogar. A gente cuida do resto.</p>
+      </div>
+      <div class="step-card reveal reveal-delay-2 visible">
+        <div class="step-number" aria-hidden="true">3</div>
+        <div class="step-icon">
+          <img src="https://assinajogos.com/imagens/assets/jogadores-se-divertindo.png" alt="Ícone de jogar" loading="lazy">
+        </div>
+        <h3>Jogue à vontade</h3>
+        <p>Receba o acesso digital e jogue o quanto quiser. Quando terminar, troque por outro título.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="v2-section" aria-labelledby="features-title">
+  <div class="v2-cc">
+    <div class="section-eyebrow">
+      <div class="v2-tag reveal"><i class="fa-solid fa-star" aria-hidden="true"></i> Vantagens</div>
+      <h2 id="features-title" class="reveal reveal-delay-1">Por que escolher a <span class="gradient-text">Assina Jogos?</span></h2>
+      <p class="reveal reveal-delay-2">Tudo pensado para você jogar mais gastando menos.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card reveal">
+        <div class="feature-icon-box" aria-hidden="true">💸</div>
+        <div>
+          <h3>Economia real</h3>
+          <p>Pague uma vez no mês e jogue vários títulos. Um único jogo novo custa mais do que uma assinatura completa.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-icon-box" aria-hidden="true">🔄</div>
+        <div>
+          <h3>Troca livre</h3>
+          <p>Não curtiu o jogo? Troque pelo próximo sem custo extra. Seu plano define quantas trocas você tem por mês.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="feature-icon-box" aria-hidden="true">⚡</div>
+        <div>
+          <h3>Acesso rápido</h3>
+          <p>100% digital. Após confirmar seu pedido, receba as credenciais e comece a jogar em minutos.</p>
+        </div>
+      </div>
+      <div class="feature-card reveal reveal-delay-3">
+        <div class="feature-icon-box" aria-hidden="true">🏆</div>
+        <div>
+          <h3>Sistema de recompensas</h3>
+          <p>Ganhe XP, LuckCoins e cashback a cada assinatura. Suba de nível e desbloqueie benefícios exclusivos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="v2-section plans-section" aria-labelledby="plans-title">
+  <div class="v2-cc">
+    <div class="section-eyebrow">
+      <div class="v2-tag reveal"><i class="fa-solid fa-credit-card" aria-hidden="true"></i> Planos</div>
+      <h2 id="plans-title" class="reveal reveal-delay-1">Um plano pra <span class="gradient-text">cada gamer</span></h2>
+      <p class="reveal reveal-delay-2">Escolha o que faz mais sentido pra você. Cancele quando quiser.</p>
+    </div>
+    <style>
+/* ═══════════════════════════════════════════════════════════
+   PERIOD PILLS
+═══════════════════════════════════════════════════════════ */
+.ppc-period-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+.ppc-pills {
+    display: inline-flex;
+    background: #12172280;
+    border: 1px solid #1e2840;
+    border-radius: 100px;
+    padding: 5px;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ppc-pill {
+    position: relative;
+    background: transparent;
+    border: none;
+    border-radius: 100px;
+    color: #6b7a99;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 22px;
+    cursor: pointer;
+    transition: color .2s, background .2s;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.ppc-pill:hover { color: #c8d0e8; }
+.ppc-pill.ac-active {
+    background: #00d189;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 0 18px rgba(0,209,137,.35);
+}
+.ppc-pill-badge {
+    background: rgba(255,255,255,.18);
+    border-radius: 100px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+    letter-spacing: .3px;
+}
+.ppc-pill.ac-active .ppc-pill-badge {
+    background: rgba(0,0,0,.18);
+}
+.ppc-pill-hot {
+    background: #f59e0b;
+    color: #1a1200;
+}
+.ppc-pill.ac-active .ppc-pill-hot {
+    background: rgba(0,0,0,.2);
+    color: #fff;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   CARDS GRID
+═══════════════════════════════════════════════════════════ */
+.columns.pricing-cards {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 22px !important;
+    align-items: stretch !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   CARD BASE
+═══════════════════════════════════════════════════════════ */
+.ac-card_plan {
+    display: none;
+    flex-direction: column;
+    background: #151b2b !important;
+    border: 1px solid #1e2840 !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    max-width: 310px !important;
+    min-width: 270px !important;
+    width: 100% !important;
+    transition: transform .25s ease, box-shadow .25s ease;
+    position: relative;
+}
+.ac-card_plan.ac-active {
+    display: flex !important;
+}
+.ac-card_plan:hover {
+    transform: translateY(-5px);
+}
+
+/* Accent top line */
+.ppc-accent-line {
+    height: 4px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   CARD HEADER
+═══════════════════════════════════════════════════════════ */
+.ac-card_plan_header {
+    padding: 22px 22px 18px !important;
+    position: relative;
+    margin-bottom: 30px !important;
+}
+.ppc-header-inner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.ppc-plan-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: rgba(0,0,0,.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ppc-plan-icon img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+.ac-card_plan_header h3 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+    margin: 0 !important;
+    line-height: 1.1;
+}
+.ppc-period-chip {
+    font-size: 11px;
+    font-weight: 600;
+    opacity: .75;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    display: block;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   PRICE BLOCK
+═══════════════════════════════════════════════════════════ */
+.ppc-price-block {
+    padding: 4px 22px 18px;
+}
+.ac-price_desc {
+    text-align: center;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: #5a6480 !important;
+    text-decoration: line-through !important;
+    margin-bottom: 4px !important;
+    display: block;
+}
+.ppc-discount-row {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.ppc-discount-badge {
+    background: rgba(0,209,137,.12);
+    border: 1px solid rgba(0,209,137,.3);
+    color: #00d189;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 100px;
+    padding: 2px 9px;
+    letter-spacing: .3px;
+    margin: 0 auto;
+    margin-bottom: 10px !important;
+}
+p.price {
+    font-size: 13px !important;
+    color: white !important;
+    display: flex !important;
+    align-items: flex-end !important;
+    gap: 2px !important;
+    margin-bottom: 2px !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+p.price span.sifron {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #c8d0e8 !important;
+    margin-bottom: 5px !important;
+}
+p.price span.value {
+    font-size: 36px !important;
+    font-weight: 800 !important;
+    letter-spacing: -1px !important;
+    color: #fff !important;
+    font-family: "Roboto", sans-serif !important;
+}
+p.price span.period {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: #5a6480 !important;
+    margin-bottom: 6px !important;
+    margin-left: 2px !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   DIVIDER
+═══════════════════════════════════════════════════════════ */
+.ppc-divider {
+    border: none;
+    border-top: 1px solid #1e2840;
+    margin: 0 22px 16px;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   DISCOUNT FLAG
+═══════════════════════════════════════════════════════════ */
+.ac-plan_details_flag {
+    margin: 0 22px 14px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ac-plan_details_flag h4 {
+    font-size: 12px !important;
+    padding: 7px 12px !important;
+    color: rgba(0,0,0,.85) !important;
+    margin: 0 !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   FEATURES LIST
+═══════════════════════════════════════════════════════════ */
+.ac-features {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 0 22px 18px !important;
+    margin: 0 !important;
+    list-style: none !important;
+    flex: 1 1 auto;
+}
+.ac-features li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #a0aec0 !important;
+    font-size: 13.5px;
+    line-height: 1.3;
+    margin-bottom: 0 !important;
+}
+.ac-features svg {
+    width: 18px !important;
+    height: 18px !important;
+    margin-right: 0 !important;
+    flex-shrink: 0;
+    color: #00d189;
+}
+.ac-features img {
+    width: 18px !important;
+    height: 18px !important;
+    margin-right: 0 !important;
+    flex-shrink: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   BONUS CHIPS (usuário logado)
+═══════════════════════════════════════════════════════════ */
+.ppc-bonuses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0 22px 18px;
+}
+.ppc-bonus-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.ppc-bonus-chip img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+.ppc-bonus-chip.xp {
+    background: rgba(167,139,250,.12);
+    border: 1px solid rgba(167,139,250,.25);
+    color: #a78bfa;
+}
+.ppc-bonus-chip.luck {
+    background: rgba(251,191,36,.1);
+    border: 1px solid rgba(251,191,36,.22);
+    color: #fbbf24;
+}
+.ppc-bonus-chip.cash {
+    background: rgba(0,209,137,.1);
+    border: 1px solid rgba(0,209,137,.22);
+    color: #00d189;
+}
+
+/* Guest locked bonuses */
+.ppc-bonus-locked {
+    padding: 0 22px 18px;
+    text-align: center;
+}
+.ppc-bonus-locked-icons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    filter: blur(3px);
+    opacity: .4;
+    pointer-events: none;
+}
+.ppc-bonus-locked-icons img { width: 24px; }
+.ppc-bonus-locked p {
+    font-size: 12px;
+    color: #5a6480;
+    margin: 0;
+    line-height: 1.4;
+}
+.ppc-bonus-locked a {
+    color: #00d189;
+    font-weight: 600;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   BUY BUTTON
+═══════════════════════════════════════════════════════════ */
+.ac-card_plan .buyplanbtn {
+    margin: auto 22px 22px !important;
+    width: calc(100% - 44px) !important;
+    padding: 14px !important;
+    border-radius: 12px !important;
+    border: none !important;
+    background: linear-gradient(135deg, #00d189 0%, #00aa70 100%) !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+    cursor: pointer !important;
+    transition: opacity .2s, transform .15s, box-shadow .2s !important;
+    letter-spacing: .2px !important;
+    box-shadow: 0 4px 20px rgba(0,209,137,.25) !important;
+    display: block !important;
+}
+.ac-card_plan .buyplanbtn:hover {
+    opacity: .92 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 28px rgba(0,209,137,.4) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════════════════════════ */
+@media (max-width: 700px) {
+    .ac-card_plan {
+        min-width: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .columns.pricing-cards {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .ppc-pills { gap: 2px; }
+    .ppc-pill { font-size: 13px; padding: 8px 14px; }
+}
+@media (min-width: 701px) and (max-width: 960px) {
+    .ac-card_plan {
+        max-width: calc(50% - 12px) !important;
+        min-width: 240px !important;
+    }
+}
+</style>
+
+
+<div class="ppc-period-wrap">
+    <div class="ppc-pills ac-btns_plan">
+        <button type="button" class="ppc-pill ac-active" period="monthly">
+            Mensal
+        </button>
+        <button type="button" class="ppc-pill" period="quarterly">
+            Trimestral
+            <span class="ppc-pill-badge">Popular</span>
+        </button>
+        <button type="button" class="ppc-pill" period="semiannually">
+            Semestral
+            <span class="ppc-pill-badge">Mais economia</span>
+        </button>
+        <button type="button" class="ppc-pill" period="annually">
+            Anual
+            <span class="ppc-pill-badge ppc-pill-hot">Melhor custo</span>
+        </button>
+    </div>
+</div>
+
+
+<div class="columns pricing-cards">
+            
+        <div class="ac-card_plan " period="semiannually" style="box-shadow: 0 0 40px #edbe381a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #edbe38, #edbe3899)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #edbe3822 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #edbe3822; border: 1px solid #edbe3844">
+                        <img src="https://assinajogos.com/imagens/icones/ouro.png" alt="Ouro" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #edbe38">Ouro</h3>
+                        <span class="ppc-period-chip" style="color: #edbe3899">Semestral</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                    <span class="ac-price_desc">R$ 479,40 / Semestral</span>
+                    <div class="ppc-discount-row">
+                        <span class="ppc-discount-badge">20% de desconto</span>
+                    </div>
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">383,52</span>
+                    <span class="period">/ Semestral</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>1</strong>&nbsp;jogo simultâneo
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>24</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_11" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_11" style="display:none">{"id":11,"status":1,"name":"Ouro","period":"semiannually","period_days":180,"price":"479.40","slug":"ouro-semestral","desc1":"10.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":24,"simultaneous_games":1,"xp":600,"luckCoing":300,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#edbe38","configuracoes":"null","created_at":"2023-08-11T19:55:15.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="11">
+                <button type="button" class="buyplanbtn" plan_id="11" data-href="https://assinajogos.com/assinar/ouro-semestral">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan " period="quarterly" style="box-shadow: 0 0 40px #edbe381a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #edbe38, #edbe3899)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #edbe3822 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #edbe3822; border: 1px solid #edbe3844">
+                        <img src="https://assinajogos.com/imagens/icones/ouro.png" alt="Ouro" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #edbe38">Ouro</h3>
+                        <span class="ppc-period-chip" style="color: #edbe3899">Trimestral</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                    <span class="ac-price_desc">R$ 239,70 / Trimestral</span>
+                    <div class="ppc-discount-row">
+                        <span class="ppc-discount-badge">15% de desconto</span>
+                    </div>
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">203,75</span>
+                    <span class="period">/ Trimestral</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>1</strong>&nbsp;jogo simultâneo
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>12</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_10" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_10" style="display:none">{"id":10,"status":1,"name":"Ouro","period":"quarterly","period_days":90,"price":"239.70","slug":"ouro-trimestral","desc1":"10.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":12,"simultaneous_games":1,"xp":300,"luckCoing":150,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#edbe38","configuracoes":"null","created_at":"2023-08-11T19:54:24.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="10">
+                <button type="button" class="buyplanbtn" plan_id="10" data-href="https://assinajogos.com/assinar/ouro-trimestral">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan ac-active" period="monthly" style="box-shadow: 0 0 40px #edbe381a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #edbe38, #edbe3899)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #edbe3822 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #edbe3822; border: 1px solid #edbe3844">
+                        <img src="https://assinajogos.com/imagens/icones/ouro.png" alt="Ouro" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #edbe38">Ouro</h3>
+                        <span class="ppc-period-chip" style="color: #edbe3899">Por mês</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">79,99</span>
+                    <span class="period">/ Por mês</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>1</strong>&nbsp;jogo simultâneo
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>4</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_4" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_4" style="display:none">{"id":4,"status":1,"name":"Ouro","period":"monthly","period_days":30,"price":"79.99","slug":"ouro-mensal","desc1":"0.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":4,"simultaneous_games":1,"xp":100,"luckCoing":50,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#edbe38","configuracoes":"null","created_at":"2023-08-11T19:52:46.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="4">
+                <button type="button" class="buyplanbtn" plan_id="4" data-href="https://assinajogos.com/assinar/ouro-mensal">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan " period="annually" style="box-shadow: 0 0 40px #edbe381a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #edbe38, #edbe3899)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #edbe3822 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #edbe3822; border: 1px solid #edbe3844">
+                        <img src="https://assinajogos.com/imagens/icones/ouro.png" alt="Ouro" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #edbe38">Ouro</h3>
+                        <span class="ppc-period-chip" style="color: #edbe3899">Anual</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                    <span class="ac-price_desc">R$ 958,80 / Anual</span>
+                    <div class="ppc-discount-row">
+                        <span class="ppc-discount-badge">25% de desconto</span>
+                    </div>
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">719,10</span>
+                    <span class="period">/ Anual</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>1</strong>&nbsp;jogo simultâneo
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>48</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#edbe38">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_12" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_12" style="display:none">{"id":12,"status":1,"name":"Ouro","period":"annually","period_days":365,"price":"958.80","slug":"ouro-anual","desc1":"10.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":48,"simultaneous_games":1,"xp":1200,"luckCoing":600,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#edbe38","configuracoes":"null","created_at":"2023-08-11T19:55:37.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="12">
+                <button type="button" class="buyplanbtn" plan_id="12" data-href="https://assinajogos.com/assinar/ouro-anual">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan ac-active" period="monthly" style="box-shadow: 0 0 40px #03b77d1a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #03b77d, #03b77d99)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #03b77d22 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #03b77d22; border: 1px solid #03b77d44">
+                        <img src="https://assinajogos.com/imagens/icones/diamante.png" alt="Diamante" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #03b77d">Diamante</h3>
+                        <span class="ppc-period-chip" style="color: #03b77d99">Por mês</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">144,99</span>
+                    <span class="period">/ Por mês</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>2</strong>&nbsp;jogos simultâneos
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>8</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_8" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_8" style="display:none">{"id":8,"status":1,"name":"Diamante","period":"monthly","period_days":30,"price":"144.99","slug":"diamante-mensal","desc1":"0.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":8,"simultaneous_games":2,"xp":200,"luckCoing":100,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#03b77d","configuracoes":"null","created_at":"2023-08-11T19:56:11.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="8">
+                <button type="button" class="buyplanbtn" plan_id="8" data-href="https://assinajogos.com/assinar/diamante-mensal">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan " period="quarterly" style="box-shadow: 0 0 40px #03b77d1a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #03b77d, #03b77d99)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #03b77d22 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #03b77d22; border: 1px solid #03b77d44">
+                        <img src="https://assinajogos.com/imagens/icones/diamante.png" alt="Diamante" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #03b77d">Diamante</h3>
+                        <span class="ppc-period-chip" style="color: #03b77d99">Trimestral</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                    <span class="ac-price_desc">R$ 434,70 / Trimestral</span>
+                    <div class="ppc-discount-row">
+                        <span class="ppc-discount-badge">15% de desconto</span>
+                    </div>
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">369,50</span>
+                    <span class="period">/ Trimestral</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>2</strong>&nbsp;jogos simultâneos
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>24</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_14" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_14" style="display:none">{"id":14,"status":1,"name":"Diamante","period":"quarterly","period_days":90,"price":"434.70","slug":"diamante-trimestral","desc1":"10.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":24,"simultaneous_games":2,"xp":600,"luckCoing":300,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#03b77d","configuracoes":"null","created_at":"2023-08-11T19:56:35.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="14">
+                <button type="button" class="buyplanbtn" plan_id="14" data-href="https://assinajogos.com/assinar/diamante-trimestral">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan " period="semiannually" style="box-shadow: 0 0 40px #03b77d1a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #03b77d, #03b77d99)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #03b77d22 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #03b77d22; border: 1px solid #03b77d44">
+                        <img src="https://assinajogos.com/imagens/icones/diamante.png" alt="Diamante" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #03b77d">Diamante</h3>
+                        <span class="ppc-period-chip" style="color: #03b77d99">Semestral</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                    <span class="ac-price_desc">R$ 869,40 / Semestral</span>
+                    <div class="ppc-discount-row">
+                        <span class="ppc-discount-badge">20% de desconto</span>
+                    </div>
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">695,52</span>
+                    <span class="period">/ Semestral</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>2</strong>&nbsp;jogos simultâneos
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>48</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_15" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_15" style="display:none">{"id":15,"status":1,"name":"Diamante","period":"semiannually","period_days":180,"price":"869.40","slug":"diamante-semestral","desc1":"10.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":48,"simultaneous_games":2,"xp":1200,"luckCoing":600,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#03b77d","configuracoes":"null","created_at":"2023-08-11T19:56:57.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="15">
+                <button type="button" class="buyplanbtn" plan_id="15" data-href="https://assinajogos.com/assinar/diamante-semestral">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan " period="annually" style="box-shadow: 0 0 40px #03b77d1a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #03b77d, #03b77d99)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #03b77d22 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #03b77d22; border: 1px solid #03b77d44">
+                        <img src="https://assinajogos.com/imagens/icones/diamante.png" alt="Diamante" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #03b77d">Diamante</h3>
+                        <span class="ppc-period-chip" style="color: #03b77d99">Anual</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                    <span class="ac-price_desc">R$ 1.738,80 / Anual</span>
+                    <div class="ppc-discount-row">
+                        <span class="ppc-discount-badge">25% de desconto</span>
+                    </div>
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">1.304,10</span>
+                    <span class="period">/ Anual</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>2</strong>&nbsp;jogos simultâneos
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>96</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#03b77d">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_17" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_17" style="display:none">{"id":17,"status":1,"name":"Diamante","period":"annually","period_days":365,"price":"1738.80","slug":"diamante-anual","desc1":"10.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":96,"simultaneous_games":2,"xp":2400,"luckCoing":1200,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#03b77d","configuracoes":"null","created_at":"2023-08-11T19:58:15.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="17">
+                <button type="button" class="buyplanbtn" plan_id="17" data-href="https://assinajogos.com/assinar/diamante-anual">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan ac-active" period="monthly" style="box-shadow: 0 0 40px #ff23801a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #ff2380, #ff238099)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #ff238022 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #ff238022; border: 1px solid #ff238044">
+                        <img src="https://assinajogos.com/imagens/icones/ruby.png" alt="Ruby" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #ff2380">Ruby</h3>
+                        <span class="ppc-period-chip" style="color: #ff238099">Por mês</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">214,90</span>
+                    <span class="period">/ Por mês</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>3</strong>&nbsp;jogos simultâneos
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>12</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_20" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_20" style="display:none">{"id":20,"status":1,"name":"Ruby","period":"monthly","period_days":30,"price":"214.90","slug":"ruby-mensal","desc1":"0.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":12,"simultaneous_games":3,"xp":300,"luckCoing":150,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#ff2380","configuracoes":"null","created_at":"2024-06-01T16:03:31.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="20">
+                <button type="button" class="buyplanbtn" plan_id="20" data-href="https://assinajogos.com/assinar/ruby-mensal">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan " period="quarterly" style="box-shadow: 0 0 40px #ff23801a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #ff2380, #ff238099)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #ff238022 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #ff238022; border: 1px solid #ff238044">
+                        <img src="https://assinajogos.com/imagens/icones/ruby.png" alt="Ruby" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #ff2380">Ruby</h3>
+                        <span class="ppc-period-chip" style="color: #ff238099">Trimestral</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                    <span class="ac-price_desc">R$ 644,70 / Trimestral</span>
+                    <div class="ppc-discount-row">
+                        <span class="ppc-discount-badge">15% de desconto</span>
+                    </div>
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">548,00</span>
+                    <span class="period">/ Trimestral</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>3</strong>&nbsp;jogos simultâneos
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>36</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_21" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_21" style="display:none">{"id":21,"status":1,"name":"Ruby","period":"quarterly","period_days":90,"price":"644.70","slug":"ruby-trimestral","desc1":"10.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":36,"simultaneous_games":3,"xp":900,"luckCoing":450,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#ff2380","configuracoes":"null","created_at":"2024-06-01T16:03:31.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="21">
+                <button type="button" class="buyplanbtn" plan_id="21" data-href="https://assinajogos.com/assinar/ruby-trimestral">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan " period="semiannually" style="box-shadow: 0 0 40px #ff23801a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #ff2380, #ff238099)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #ff238022 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #ff238022; border: 1px solid #ff238044">
+                        <img src="https://assinajogos.com/imagens/icones/ruby.png" alt="Ruby" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #ff2380">Ruby</h3>
+                        <span class="ppc-period-chip" style="color: #ff238099">Semestral</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                    <span class="ac-price_desc">R$ 1.289,40 / Semestral</span>
+                    <div class="ppc-discount-row">
+                        <span class="ppc-discount-badge">20% de desconto</span>
+                    </div>
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">1.031,52</span>
+                    <span class="period">/ Semestral</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>3</strong>&nbsp;jogos simultâneos
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>72</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_22" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_22" style="display:none">{"id":22,"status":1,"name":"Ruby","period":"semiannually","period_days":180,"price":"1289.40","slug":"ruby-semestral","desc1":"10.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":72,"simultaneous_games":3,"xp":1800,"luckCoing":900,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#ff2380","configuracoes":"null","created_at":"2024-06-01T16:03:31.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="22">
+                <button type="button" class="buyplanbtn" plan_id="22" data-href="https://assinajogos.com/assinar/ruby-semestral">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+            
+        <div class="ac-card_plan " period="annually" style="box-shadow: 0 0 40px #ff23801a">
+
+            
+            <div class="ppc-accent-line" style="background: linear-gradient(90deg, #ff2380, #ff238099)"></div>
+
+            
+            <div class="ac-card_plan_header" style="background: linear-gradient(135deg, #ff238022 0%, transparent 70%)">
+                <div class="ppc-header-inner">
+                    <div class="ppc-plan-icon" style="background: #ff238022; border: 1px solid #ff238044">
+                        <img src="https://assinajogos.com/imagens/icones/ruby.png" alt="Ruby" onerror="this.style.display='none'">
+                    </div>
+                    <div>
+                        <h3 style="color: #ff2380">Ruby</h3>
+                        <span class="ppc-period-chip" style="color: #ff238099">Anual</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="ppc-price-block">
+                                    <span class="ac-price_desc">R$ 2.578,80 / Anual</span>
+                    <div class="ppc-discount-row">
+                        <span class="ppc-discount-badge">25% de desconto</span>
+                    </div>
+                                <p class="price">
+                    <span class="sifron">R$&nbsp;</span>
+                    <span class="value">1.934,10</span>
+                    <span class="period">/ Anual</span>
+                </p>
+            </div>
+
+            <hr class="ppc-divider">
+
+            
+            
+            
+            <ul class="ac-features">
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1-3.923-2.035l1.634-8.173A5 5 0 0 1 8.6 5H12z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925-2.023L20.395 9.03"></path>
+                        <path d="M8 9v2M7 10h2M14 10h2"></path>
+                    </svg>
+                    <strong>3</strong>&nbsp;jogos simultâneos
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M3 3m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"></path>
+                        <path d="M15 15m0 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z"></path>
+                        <path d="M21 11v-3a2 2 0 0 0-2-2h-6l3 3m0-6-3 3M3 13v3a2 2 0 0 0 2 2h6l-3-3m0 6 3-3"></path>
+                    </svg>
+                    <strong>144</strong>&nbsp;trocas por período
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    Jogue na sua própria conta
+                </li>
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#ff2380">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 6v6l4 2"></path>
+                    </svg>
+                    Acesso imediato após pagamento
+                </li>
+            </ul>
+
+            
+                            <div class="ppc-bonus-locked">
+                    <div class="ppc-bonus-locked-icons">
+                        <img src="https://assinajogos.com/imagens/icones/pontos.png" alt="XP">
+                        <img src="https://assinajogos.com/imagens/icones/lukcoins.png" alt="LuckCoins">
+                        <img src="https://assinajogos.com/imagens/icones/cashcoins.png" alt="Cashback">
+                    </div>
+                    <p>
+                        <a href="https://assinajogos.com/entrar">Faça login</a>
+                        para ver XP, LuckCoins e Cashback exclusivos.
+                    </p>
+                </div>
+            
+            
+            <form id="ac-form_buy_23" action="https://assinajogos.com/subscription/create-order" method="POST" style="display:contents">
+                <input type="hidden" name="_token" value="hJKFjEeUd3ZOMGO1BV0mZH5UoLkFVBRRfKhwrfQX">                <textarea id="ac-form_buy_textarea_23" style="display:none">{"id":23,"status":1,"name":"Ruby","period":"annually","period_days":365,"price":"2578.80","slug":"ruby-anual","desc1":"10.00","desc2":"12.00","desc3":"15.00","desc4":"20.00","desc5":"25.00","desc6":"25.00","exchanges":144,"simultaneous_games":3,"xp":3600,"luckCoing":1800,"cashback1":"2.00","cashback2":"2.00","cashback3":"4.00","cashback4":"6.00","cashback5":"8.00","cashback6":"8.00","icone":"","cor01":"#ff2380","configuracoes":"null","created_at":"2024-06-01T16:03:31.000000Z","updated_at":"2026-03-09T19:15:03.000000Z"}</textarea>
+                <input type="hidden" name="plan_id" value="23">
+                <button type="button" class="buyplanbtn" plan_id="23" data-href="https://assinajogos.com/assinar/ruby-anual">
+                    Assinar agora
+                </button>
+            </form>
+
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="v2-section trust-section" aria-labelledby="trust-title">
+  <div class="v2-cc">
+    <div class="section-eyebrow">
+      <div class="v2-tag reveal"><i class="fa-solid fa-heart" aria-hidden="true"></i> Depoimentos</div>
+      <h2 id="trust-title" class="reveal reveal-delay-1">Gamers que <span class="gradient-text">amam a plataforma</span></h2>
+      <p class="reveal reveal-delay-2">Veja o que nossos assinantes estão dizendo.</p>
+    </div>
+    <div class="trust-cards">
+      <article class="trust-card reveal">
+        <div class="trust-stars" aria-label="5 estrelas">
+          <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+          <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+          <i class="fa-solid fa-star" aria-hidden="true"></i>
+        </div>
+        <p>"Economizei muito desde que assinei. Jogo muito mais títulos do que conseguiria comprando. O suporte também é rápido e atencioso."</p>
+        <div class="trust-author">
+          <div class="trust-avatar" aria-hidden="true">LM</div>
+          <div class="trust-author-info">
+            <strong>Lucas M.</strong>
+            <span>Assinante Gold • SP</span>
+          </div>
+        </div>
+      </article>
+      <article class="trust-card reveal reveal-delay-1">
+        <div class="trust-stars" aria-label="5 estrelas">
+          <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+          <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+          <i class="fa-solid fa-star" aria-hidden="true"></i>
+        </div>
+        <p>"Melhor serviço de assinatura de jogos que já usei. Catálogo enorme, acesso rápido e sem enrolação. Recomendo pra todos os gamers!"</p>
+        <div class="trust-author">
+          <div class="trust-avatar" aria-hidden="true">RC</div>
+          <div class="trust-author-info">
+            <strong>Rafael C.</strong>
+            <span>Assinante Diamond • RJ</span>
+          </div>
+        </div>
+      </article>
+      <article class="trust-card reveal reveal-delay-2">
+        <div class="trust-stars" aria-label="5 estrelas">
+          <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+          <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+          <i class="fa-solid fa-star" aria-hidden="true"></i>
+        </div>
+        <p>"Nunca mais comprei jogo físico. Com a assinatura consigo jogar tudo que quero pelo preço de um único jogo. Perfeito para quem gosta de variedade."</p>
+        <div class="trust-author">
+          <div class="trust-avatar" aria-hidden="true">AF</div>
+          <div class="trust-author-info">
+            <strong>Amanda F.</strong>
+            <span>Assinante Ouro • MG</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section class="v2-section faq-section" aria-labelledby="faq-title">
+  <div class="v2-cc">
+    <div class="section-eyebrow">
+      <div class="v2-tag reveal"><i class="fa-solid fa-circle-question" aria-hidden="true"></i> FAQ</div>
+      <h2 id="faq-title" class="reveal reveal-delay-1">Dúvidas <span class="gradient-text">frequentes</span></h2>
+      <p class="reveal reveal-delay-2">Tudo que você precisa saber antes de assinar.</p>
+    </div>
+    <div class="faq-list" role="list">
+      <div class="faq-item reveal" role="listitem">
+        <button class="faq-trigger" aria-expanded="false">
+          <span class="faq-trigger-text">Como funciona o acesso aos jogos?</span>
+          <span class="faq-caret" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-body"><p>Após a confirmação do pagamento, nossa equipe envia as credenciais de acesso via WhatsApp ou e-mail. O acesso é direto na sua conta PlayStation — 100% digital e sem complicação.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-delay-1" role="listitem">
+        <button class="faq-trigger" aria-expanded="false">
+          <span class="faq-trigger-text">Posso jogar no PS4 e PS5 com a mesma assinatura?</span>
+          <span class="faq-caret" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-body"><p>Sim! A plataforma é compatível com ambas as gerações. Ao escolher um jogo no catálogo, você indica se é PS4 ou PS5, e a gente providencia o acesso correto para a sua plataforma.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-delay-2" role="listitem">
+        <button class="faq-trigger" aria-expanded="false">
+          <span class="faq-trigger-text">O que acontece quando o período termina?</span>
+          <span class="faq-caret" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-body"><p>Ao término do seu plano, o acesso ao jogo é encerrado automaticamente. Você pode renovar a assinatura para continuar jogando ou escolher um novo título. Não há cobranças surpresa.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-delay-3" role="listitem">
+        <button class="faq-trigger" aria-expanded="false">
+          <span class="faq-trigger-text">Quantos jogos posso ter ao mesmo tempo?</span>
+          <span class="faq-caret" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-body"><p>Depende do plano escolhido. O Bronze permite 1 jogo simultâneo, o Gold permite 2, e o Diamond dá acesso a 3 ou mais títulos ao mesmo tempo. Confira a página de planos para todos os detalhes.</p></div>
+      </div>
+      <div class="faq-item reveal" role="listitem">
+        <button class="faq-trigger" aria-expanded="false">
+          <span class="faq-trigger-text">Meus dados e pagamentos são seguros?</span>
+          <span class="faq-caret" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-body"><p>Com certeza. Utilizamos o Mercado Pago como gateway de pagamento, com criptografia de ponta a ponta. Seus dados pessoais são tratados com sigilo total conforme nossa Política de Privacidade.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-delay-1" role="listitem">
+        <button class="faq-trigger" aria-expanded="false">
+          <span class="faq-trigger-text">Posso cancelar quando quiser?</span>
+          <span class="faq-caret" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-body"><p>Sim. Não há fidelidade obrigatória. Você pode cancelar a qualquer momento. O acesso permanece ativo até o final do período já pago.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="final-cta" aria-labelledby="final-cta-title">
+  <div class="final-cta-bg" aria-hidden="true"></div>
+  <div class="final-cta-grid" aria-hidden="true"></div>
+  <div class="v2-cc final-cta-content">
+    <div class="v2-tag" style="margin:0 auto 24px" aria-hidden="true"><i class="fa-solid fa-rocket"></i> Comece agora</div>
+    <h2 id="final-cta-title" class="reveal">
+      Pronto para jogar <span class="gradient-text">sem limites?</span>
+    </h2>
+    <p class="reveal reveal-delay-1">Junte-se a milhares de gamers que já descobriram a melhor forma de jogar PS4 e PS5 por assinatura.</p>
+    <div class="final-cta-btns reveal reveal-delay-2">
+      <a href="https://assinajogos.com/cadastro" class="v2-btn v2-btn-accent v2-btn-lg" aria-label="Criar conta gratuita">
+        <i class="fa-solid fa-user-plus" aria-hidden="true"></i> Criar conta grátis
+      </a>
+      <a href="https://assinajogos.com/assinatura" class="v2-btn v2-btn-primary v2-btn-lg" aria-label="Ver planos de assinatura">
+        <i class="fa-solid fa-crown" aria-hidden="true"></i> Ver planos
+      </a>
+    </div>
+    <div class="final-cta-guarantee reveal reveal-delay-3">
+      <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+      Pagamento seguro via Mercado Pago · Suporte por WhatsApp · Sem fidelidade
+    </div>
+  </div>
+</section>
+
+</div>
+
+<script>
+/* ===================================================
+   SCROLL REVEAL
+=================================================== */
+(function(){
+  const els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) {
+    els.forEach(el => el.classList.add('visible'));
+    return;
+  }
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if(e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  els.forEach(el => obs.observe(el));
+})();
+
+/* ===================================================
+   COUNTER ANIMATION
+=================================================== */
+(function(){
+  const counters = document.querySelectorAll('[data-count]');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const target = parseInt(el.dataset.count);
+      const suffix = el.dataset.suffix || '';
+      const duration = 1800;
+      const start = performance.now();
+      const tick = (now) => {
+        const progress = Math.min((now - start) / duration, 1);
+        const ease = 1 - Math.pow(1 - progress, 4);
+        el.textContent = Math.floor(ease * target) + suffix;
+        if (progress < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      obs.unobserve(el);
+    });
+  }, { threshold: 0.5 });
+  counters.forEach(c => obs.observe(c));
+})();
+
+/* ===================================================
+   FAQ ACCORDION
+=================================================== */
+document.querySelectorAll('.faq-trigger').forEach(btn => {
+  btn.addEventListener('click', function() {
+    const item = this.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    // Close all
+    document.querySelectorAll('.faq-item.open').forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.faq-trigger').setAttribute('aria-expanded','false');
+    });
+    // Toggle clicked
+    if (!isOpen) {
+      item.classList.add('open');
+      this.setAttribute('aria-expanded','true');
+    }
+  });
+});
+</script>
+        </main>
+        <div id="ac-popup_play">
+    <div id="ac-popup_card">
+        <h1>VOCÊ VAI JOGAR NO PS4 OU PS5?</h1>
+        <div class="ac-play_options">
+            <div class="ac-play_select" cid="ps4">
+                <img src="https://assinajogos.com/imagens/assets/jogarplaysation4.jpg">
+                <h4>PS4</h4>
+            </div>
+            <div class="ac-play_select" cid="ps5">
+                <img src="https://assinajogos.com/imagens/assets/jogarplaysation5.jpg">
+                <h4>PS5</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* ===== FOOTER MODERNO ===== */
+    /* Paleta alinhada a /perfil/meus-dados, /checkout e /v2 */
+    #ac-footer {
+        background: #0f1320;
+        border-top: 1px solid rgba(77, 171, 247, 0.08);
+        color: #c7c7c7;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 0.875rem;
+    }
+
+    .ft-main {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 3.5rem 1.5rem 2.5rem;
+        display: grid;
+        grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr;
+        gap: 2.5rem;
+    }
+
+    /* Brand column */
+    .ft-brand {}
+    .ft-brand img {
+        height: 36px;
+        width: auto;
+        display: block;
+        margin-bottom: 1rem;
+        filter: brightness(0) invert(1);
+        opacity: 0.9;
+    }
+    .ft-brand p {
+        font-size: 0.82rem;
+        color: #8b94a3;
+        line-height: 1.65;
+        margin-bottom: 1.25rem;
+        max-width: 230px;
+    }
+    .ft-socials {
+        display: flex;
+        gap: 0.6rem;
+    }
+    .ft-socials a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        background: #181c24;
+        border: 1px solid rgba(77, 171, 247, 0.08);
+        color: #8b94a3;
+        transition: background 0.2s, color 0.2s, border-color 0.2s;
+        text-decoration: none;
+    }
+    .ft-socials a:hover {
+        background: rgba(1, 213, 250, 0.12);
+        color: #01d5fa;
+        border-color: rgba(1, 213, 250, 0.35);
+    }
+
+    /* Nav columns */
+    .ft-col {}
+    .ft-col-title {
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 1rem;
+        opacity: 0.5;
+    }
+    .ft-col ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+    }
+    .ft-col ul li a {
+        color: #8b94a3;
+        text-decoration: none;
+        font-size: 0.875rem;
+        transition: color 0.18s;
+        display: inline-block;
+    }
+    .ft-col ul li a:hover {
+        color: #01d5fa;
+    }
+
+    /* Divider */
+    .ft-divider {
+        max-width: 1280px;
+        margin: 0 auto;
+        border: none;
+        border-top: 1px solid rgba(77, 171, 247, 0.08);
+    }
+
+    /* Trust + Payments row */
+    .ft-middle {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 1.5rem 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+    .ft-trust {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+    .ft-trust-label {
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #8b94a3;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+    .ft-trust-badges {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+    .ft-badge {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        background: #181c24;
+        border: 1px solid rgba(77, 171, 247, 0.08);
+        border-radius: 6px;
+        padding: 0.3rem 0.65rem;
+        font-size: 0.72rem;
+        color: #c7c7c7;
+        white-space: nowrap;
+    }
+    .ft-badge svg {
+        color: #00d189;
+        flex-shrink: 0;
+    }
+
+    /* Payment methods */
+    .ft-payments {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+    .ft-payments-label {
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #8b94a3;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+    .ft-payment-methods {
+        display: flex;
+        gap: 0.4rem;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .ft-pm {
+        background: #181c24;
+        border: 1px solid rgba(77, 171, 247, 0.08);
+        border-radius: 5px;
+        padding: 0.25rem 0.55rem;
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: #c7c7c7;
+        letter-spacing: 0.03em;
+        white-space: nowrap;
+    }
+    .ft-pm.pix    { color: #32d494; border-color: rgba(50,212,148,0.2); background: rgba(50,212,148,0.05); }
+    .ft-pm.mp     { color: #009ee3; border-color: rgba(0,158,227,0.2);  background: rgba(0,158,227,0.05); }
+    .ft-pm.visa   { color: #1a1f71; background: #e8e9ff; border-color: transparent; }
+    .ft-pm.master { color: #eb001b; background: #fff1f1; border-color: transparent; }
+
+    /* Bottom bar */
+    .ft-bottom {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 1.25rem 1.5rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .ft-bottom-left {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+    .ft-copy {
+        font-size: 0.8rem;
+        color: #8b94a3;
+    }
+    .ft-copy a {
+        color: #c7c7c7;
+        text-decoration: none;
+        transition: color 0.18s;
+    }
+    .ft-copy a:hover { color: #01d5fa; }
+    .ft-cnpj {
+        font-size: 0.72rem;
+        color: #6b7480;
+    }
+    .ft-bottom-links {
+        display: flex;
+        gap: 1.25rem;
+        flex-wrap: wrap;
+    }
+    .ft-bottom-links a {
+        font-size: 0.78rem;
+        color: #8b94a3;
+        text-decoration: none;
+        transition: color 0.18s;
+    }
+    .ft-bottom-links a:hover { color: #01d5fa; }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+        .ft-main {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .ft-brand {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 1.5rem;
+            align-items: start;
+        }
+        .ft-brand-img-wrap { grid-column: 1; grid-row: 1 / 3; }
+        .ft-brand p { margin-bottom: 0; }
+    }
+
+    @media (max-width: 768px) {
+        .ft-main {
+            grid-template-columns: 1fr 1fr;
+            padding: 2.5rem 1.25rem 2rem;
+        }
+        .ft-brand {
+            grid-column: 1 / -1;
+            display: block;
+        }
+        .ft-middle {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.25rem;
+            padding: 1.25rem;
+        }
+        .ft-bottom {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 1rem 1.25rem 2rem;
+        }
+        .ft-bottom-links {
+            gap: 0.75rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .ft-main { grid-template-columns: 1fr; gap: 2rem; }
+        .ft-payment-methods, .ft-trust-badges { gap: 0.35rem; }
+    }
+</style>
+
+<footer id="ac-footer">
+
+    
+    <div class="ft-main">
+
+        
+        <div class="ft-brand">
+            <a href="https://assinajogos.com">
+                <img src="https://assinajogos.com/imagens/logos/assina_jogos_logo.png" alt="Assina Jogos">
+            </a>
+            <p>A plataforma de jogos por assinatura para PS4 e PS5. Acesse centenas de títulos sem precisar comprar, com planos que cabem no seu bolso.</p>
+            <div class="ft-socials">
+                <a href="https://api.whatsapp.com/send?phone=5516974057513" target="_blank" rel="noopener" aria-label="WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path></svg>
+                </a>
+                <a href="https://www.instagram.com/assinajogos" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path><path d="M16.5 7.5v.01"></path></svg>
+                </a>
+            </div>
+        </div>
+
+        
+        <div class="ft-col">
+            <p class="ft-col-title">Plataforma</p>
+            <ul>
+                <li><a href="https://assinajogos.com/jogos">Catálogo de Jogos</a></li>
+                <li><a href="https://assinajogos.com/assinatura">Planos e Preços</a></li>
+                <li><a href="https://assinajogos.com/sorteios">Sorteios</a></li>
+                <li><a href="https://assinajogos.com/bonus">Como Funciona</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="ft-col">
+            <p class="ft-col-title">Conta</p>
+            <ul>
+                <li><a href="https://assinajogos.com/cadastro">Me Cadastrar</a></li>
+                <li><a href="https://assinajogos.com/entrar">Entrar</a></li>
+                <li><a href="https://assinajogos.com/perfil/afiliacao">Afiliados</a></li>
+                <li><a href="https://assinajogos.com/perfil/meus-dados">Meu Perfil</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="ft-col">
+            <p class="ft-col-title">Legal</p>
+            <ul>
+                <li><a href="https://assinajogos.com/politica-de-privacidade">Privacidade</a></li>
+                <li><a href="https://assinajogos.com/termos-de-uso">Termos de Uso</a></li>
+                <li><a href="https://assinajogos.com/politica-de-reembolso">Reembolso</a></li>
+                <li><a href="https://assinajogos.com/politica-de-cookies">Cookies</a></li>
+                <li><a href="https://assinajogos.com/politica-de-recompensa">Pol. Recompensa</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="ft-col">
+            <p class="ft-col-title">Suporte</p>
+            <ul>
+                <li><a href="https://api.whatsapp.com/send?phone=5516974057513" target="_blank" rel="noopener">WhatsApp</a></li>
+                <li><a href="https://www.instagram.com/assinajogos" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="https://assinajogos.com/bonus">Central de Ajuda</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="ft-divider">
+
+    
+    <div class="ft-middle">
+
+        <div class="ft-trust">
+            <span class="ft-trust-label">Segurança</span>
+            <div class="ft-trust-badges">
+                <span class="ft-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"></path><path d="M9 12l2 2l4 -4"></path></svg>
+                    Site Seguro
+                </span>
+                <span class="ft-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"></rect><circle cx="12" cy="16" r="1"></circle><path d="M8 11v-4a4 4 0 0 1 8 0v4"></path></svg>
+                    Dados Criptografados
+                </span>
+                <span class="ft-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2l4 -4"></path><path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"></path></svg>
+                    Pagamento Verificado
+                </span>
+            </div>
+        </div>
+
+        <div class="ft-payments">
+            <span class="ft-payments-label">Formas de pagamento</span>
+            <div class="ft-payment-methods">
+                <span class="ft-pm pix">PIX</span>
+                <span class="ft-pm mp">Mercado Pago</span>
+                <span class="ft-pm">Boleto</span>
+                <span class="ft-pm visa">VISA</span>
+                <span class="ft-pm master">Master</span>
+                <span class="ft-pm">Elo</span>
+            </div>
+        </div>
+    </div>
+
+    <hr class="ft-divider">
+
+    
+    <div class="ft-bottom">
+        <div class="ft-bottom-left">
+            <span class="ft-copy">© 2026 Assina Jogos — Todos os direitos reservados. Por <a href="https://devalisson.com/" target="_blank" rel="noopener">Alisson Custodio</a>.</span>
+            <span class="ft-cnpj">CNPJ: 41.390.892/0001-61</span>
+        </div>
+        <div class="ft-bottom-links">
+            <a href="https://assinajogos.com/politica-de-privacidade">Privacidade</a>
+            <a href="https://assinajogos.com/termos-de-uso">Termos de Uso</a>
+            <a href="https://assinajogos.com/politica-de-reembolso">Reembolso</a>
+            <a href="https://assinajogos.com/politica-de-cookies">Cookies</a>
+        </div>
+    </div>
+
+</footer>
+
+<script>
+    window.appConfig = {
+        baseUrl: "https:\/\/assinajogos.com",
+        isLoggedIn: false,
+        userId: null    };
+</script>
+    </div>
+    <script defer="">
+        const navbarBurger = document.querySelector('.navbar-burger');
+        const navbarMenu = document.querySelector('.navbar-menu');
+
+        if (navbarBurger && navbarMenu) {
+            navbarBurger.addEventListener('click', () => {
+                navbarBurger.classList.toggle('is-active');
+                navbarMenu.classList.toggle('is-active');
+            });
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://assinajogos.com/js/toastr.js"></script>
+    <script src="https://assinajogos.com/js/bootstrap.bundle.min.js"></script>
+    <script src="https://assinajogos.com/js/websitejavascript.js?v=v2.68"></script>
+
+    <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4d81d4bc81c253a',t:'MTc5MjUwMDI3MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;"></iframe><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;b7e910b11f504a0cb56de5a35840c6f1&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+
+
+
+</body>
